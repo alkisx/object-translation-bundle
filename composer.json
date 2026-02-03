@@ -1,0 +1,40 @@
+{
+    "name": "symfonycasts/object-translation-bundle",
+    "description": "Translate your entities!",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SymfonyCasts\\ObjectTranslationBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SymfonyCasts\\ObjectTranslationBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alkiviadis Doulgeris",
+            "email": "a.doulgeris@wellcomm.gr"
+        }
+    ],
+    "require": {
+
+        "php": ">=8.2",
+        "symfony/framework-bundle": "^6.4|^7.0",
+        "symfony/translation": "^6.4|^7.0",
+        "doctrine/doctrine-bundle": "^2.2",
+        "doctrine/orm": "^3.6",
+        "symfony/var-exporter": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "symfony/phpunit-bridge": "^7.0",
+        "zenstruck/foundry": "^2.8",
+        "phpstan/phpstan": "^2.1",
+        "twig/twig": "^3.23"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

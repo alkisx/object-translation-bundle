@@ -1,0 +1,7 @@
+vendor/
+var/
+
+# we do not commit this with bundles
+composer.lock
+
+.phpunit.result.cache

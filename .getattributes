@@ -1,0 +1,2 @@
+# ignore the tests directory when installing the package
+/tests export-ignore
