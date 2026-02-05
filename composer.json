@@ -16,7 +16,7 @@
     "authors": [
         {
             "name": "Alkiviadis Doulgeris",
-            "email": "a.doulgeris@wellcomm.gr"
+            "email": "a.doulgeris@skepsi.org"
         }
     ],
     "require": {
@@ -26,13 +26,13 @@
         "symfony/translation": "^6.4|^7.0",
         "doctrine/doctrine-bundle": "^2.2",
         "doctrine/orm": "^3.6",
-        "symfony/var-exporter": "^7.0",
-        "php-cs-fixer/shim": "^3.93"
+        "symfony/var-exporter": "^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6",
         "symfony/phpunit-bridge": "^7.0",
-        "zenstruck/foundry": "^2.8",
+        "zenstruck/foundry": "^2.8",,
+        "php-cs-fixer/shim": "^3.93",
         "phpstan/phpstan": "^2.1",
         "twig/twig": "^3.23"
     },
