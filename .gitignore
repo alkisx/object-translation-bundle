@@ -5,3 +5,5 @@ var/
 composer.lock
 
 .phpunit.result.cache
+
+.idea
